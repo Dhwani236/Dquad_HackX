@@ -49,3 +49,18 @@ The output is a processed image where **defect regions are automatically highlig
    ```bash
    git clone https://github.com/Dhwani236/Dquad_HackX
    cd Dquad_HackX
+
+2. **Create and Activate a Virtual Environment**
+   ```bash
+      python -m venv venv
+      venv\Scripts\activate 
+
+4. **Install dependencies**
+   ```bash
+    pip install -r requirements.txt
+
+6. **Run the prototype**
+   ```bash
+    cd src
+    python main.py
+
